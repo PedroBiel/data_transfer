@@ -2,4 +2,4 @@
 
 Data transfer between different tools.
 
-<img src="mainwindow.png"
+<img src="mainwindow.png">
