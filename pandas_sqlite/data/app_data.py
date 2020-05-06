@@ -17,7 +17,6 @@ import pandas as pd
 class Data:
     """Data of the application."""
     
-    
     data_frame = pd.DataFrame({
         'A': [1, 2, 3],
         'B': [4, 5, 6],
