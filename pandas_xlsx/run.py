@@ -24,7 +24,7 @@ from controller.app_controller import Controller
 class MainWindow(QMainWindow):
 
     def __init__(self, parent=None):
-        """Call a MessageBox."""
+        """Export a pandas DataFrame to a Excel spreadsheet."""
 
         QMainWindow.__init__(self, parent)
         uic.loadUi('view/mainwindow.ui', self)
