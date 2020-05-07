@@ -1,4 +1,4 @@
-# Data transfer from pandas DataFrame to SQLite3
+# Data transfer from pandas DataFrame into SQLite3
 
 Write records stored in a pandas DataFrame into a SQLite3 database.
 
