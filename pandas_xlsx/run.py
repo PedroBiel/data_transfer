@@ -24,7 +24,7 @@ from controller.app_controller import Controller
 class MainWindow(QMainWindow):
 
     def __init__(self, parent=None):
-        """Calls a MessageBox."""
+        """Call a MessageBox."""
 
         QMainWindow.__init__(self, parent)
         uic.loadUi('view/mainwindow.ui', self)
@@ -52,14 +52,14 @@ class MainWindow(QMainWindow):
         self.btn_export_xlsx.clicked.connect(self.controller.export_xlsx)
         
     def display_dataframe(self):
-        """Displays the pandas DataFrame in the MainWindow."""
+        """Display the pandas DataFrame in the MainWindow."""
         
         str_df = str(self.df)
         self.txt_df.setText(str_df)
         
     def display_message(self):
         """
-        Displays a message when the export to the Excel spreadsheet is finish.
+        Display a message when the export to the Excel spreadsheet is finish.
         """
 
         self.lbl_msg.setText(self.message)
