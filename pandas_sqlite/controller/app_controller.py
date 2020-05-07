@@ -24,7 +24,7 @@ class Controller:
 
     # Import pandas DataFrame.
     def import_df(self):
-        """Imports pandas DataFrame from data."""
+        """Import pandas DataFrame from data."""
         
         self.w.df = self.get_dataframe()
         self.w.display_dataframe()
@@ -39,7 +39,7 @@ class Controller:
     # Export to SQLite3.
     def export_sql(self):
         """
-        Exports pandas DataFrame to a SQLite3 database in the indicated
+        Export pandas DataFrame to a SQLite3 database in the indicated
         directory.
         """
         
