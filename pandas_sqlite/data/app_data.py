@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Data transfer
-From pandas DataFrame into SQLite
+From pandas DataFrame to SQLite
 
 Created on 06.05.2020
 
