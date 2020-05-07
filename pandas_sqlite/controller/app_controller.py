@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Data transfer
-From pandas DataFrame into SQLite
+From pandas DataFrame to SQLite
 
 Created on 06.05.2020
 
@@ -51,7 +51,7 @@ class Controller:
         self.w.display_message()
         
     def df_to_sql(self):
-        """From pandas DataFrame into SQLlite table."""
+        """From pandas DataFrame to SQLlite table."""
         
         db_name = self.w.lne_db.text()
         
