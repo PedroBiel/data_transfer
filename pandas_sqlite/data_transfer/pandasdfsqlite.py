@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Data transfer
-From pandas DataFrame to SQLite
+From pandas DataFrame into SQLite
 
 Created on 06.05.2020
 
@@ -17,7 +17,7 @@ import sqlite3
 class PandasDFSQLite:
 
     def __init__(self, df, dir_db_name, table):
-        """Transfer data from a pandas DataFrame to a SQLite data base."""
+        """Transfer data from a pandas DataFrame into a SQLite data base."""
         
         self.df = df  # pandas DataFrame to convert.
         self.dir_db_name = dir_db_name  # Directory and name of the database.
